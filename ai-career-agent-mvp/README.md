@@ -39,3 +39,7 @@ Bu layihə işlək frontend demo və ilkin **Express + tRPC + Drizzle backend MV
 Layihə React / Express / tRPC / Drizzle starterinə əsaslanır. `pnpm build` frontend və Express server bundle-ını yaradır; `pnpm db:migrate` isə gələcək persistent schema dəyişiklikləri üçün saxlanılıb. Private açarlar yalnız serverdə qalmalıdır; `server/_core/publicConfig.ts` yalnız seçilmiş public runtime dəyərlərini brauzerə ötürür.
 
 Backend endpoint-ləri, cədvəllər, local API inteqrasiya qeydləri və migration təhlükəsizlik qeydi üçün [`docs/backend-mvp.md`](docs/backend-mvp.md)-ə baxın. Migration SQL [`drizzle/0001_career_agent.sql`](drizzle/0001_career_agent.sql)-dədir. Database shared development/production olduğu üçün schema migration-ı bu işdə **tətbiq edilməyib**.
+## Contributors
+
+* **Ramin Suleyman**
+* **Shiragha Murtuzayev**
